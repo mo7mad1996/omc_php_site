@@ -1,0 +1,38 @@
+.aside {
+  &.ar {
+    border-left: 7px solid black;
+  }
+
+  &.en {
+    border-right: 7px solid black;
+  }
+
+  h3 i {
+    color: #e5a21a;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+
+    a::after,
+    a::before {
+      content: '"';
+    }
+
+    &::before {
+      content: "";
+      background-color: $red;
+      height: 10px;
+      width: 10px;
+      display: inline-block;
+      margin: 0 5px;
+    }
+  }
+
+  address {
+    font-size: 14px;
+    border-top: 10px solid #614747;
+    margin: 0.7rem -0.7rem;
+  }
+}

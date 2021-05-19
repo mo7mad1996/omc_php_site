@@ -1,0 +1,18 @@
+.main-header {
+  .Logo-BG {
+    position: relative;
+
+    .bg {
+      width: 100%;
+    }
+
+    @import "startIn";
+    @import "Logo";
+    @import "title";
+    @import "page_name";
+  }
+
+  @import "form";
+  @import "marquee";
+  @import "nav";
+}

@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+[lang="en"] {
+  direction: ltr;
+}
+[lang="ar"] {
+  direction: rtl;
+}
+
+// a tag
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+// ul tag
+ol,
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}

@@ -1,0 +1,17 @@
+.page_name {
+  filter: drop-shadow(-1px -1px 0px white) drop-shadow(-1px 1px 0px white)
+    drop-shadow(1px -1px 0px white) drop-shadow(1px 1px 0px white);
+  position: absolute;
+  top: 2vw;
+  text-align: center;
+  left: 31vw;
+  transform: translateX(-50%);
+  font-family: Mohammad;
+
+  h1 {
+    font-size: 3vw;
+  }
+  h2 {
+    font-size: 1.3vw;
+  }
+}

@@ -1,0 +1,17 @@
+.marquee {
+  background: #251843;
+  color: white;
+
+  .title {
+    background: #d50000;
+    padding: 5px 10px;
+    white-space: nowrap;
+    font-family: "Almarai", sans-serif;
+    font-weight: 400;
+  }
+
+  marquee {
+    display: flex;
+    align-items: center;
+  }
+}

@@ -1,0 +1,1 @@
+<img class="logo" alt="logo" src="<?php echo "$domain/includes/imgs/" . $site_lang ;?>logo.png" /> 

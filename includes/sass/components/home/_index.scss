@@ -1,0 +1,21 @@
+.home {
+  @import "leftSide/index";
+  @import "rightSide/index";
+
+  position: relative;
+
+  &::after {
+    content: "";
+    height: 10px;
+    width: 90%;
+    display: block;
+    left: 0;
+    position: absolute;
+    background-color: black;
+    border-top-right-radius: 80px 10px;
+  }
+}
+
+.red {
+  color: $red;
+}

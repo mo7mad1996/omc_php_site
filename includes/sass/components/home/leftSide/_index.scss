@@ -1,0 +1,19 @@
+.main article {
+  display: flex;
+  gap: 10px;
+
+  &:not(:first-of-type) {
+    margin-top: 1em;
+  }
+
+  ol {
+    padding: 0 1em;
+    &.ar {
+      list-style: arabic-indic;
+    }
+
+    &.en {
+      list-style: decimal;
+    }
+  }
+}

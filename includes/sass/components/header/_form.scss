@@ -1,0 +1,60 @@
+.form {
+  position: absolute;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  direction: rtl;
+  top: 0;
+  right: 10vw;
+  align-items: stretch;
+  border-bottom: 3px solid #202a71;
+
+  form,
+  .links {
+    padding: 2px;
+    display: flex;
+    border-bottom: 1px solid #286f88;
+    font-family: "Almarai";
+    align-items: center;
+  }
+
+  .links {
+    padding: 0;
+    margin: 0;
+
+    a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      border-radius: 50%;
+      margin: 2px;
+
+      li {
+        height: 2.5vw;
+        width: 2.5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5vw;
+      }
+    }
+  }
+
+  form {
+    align-items: stretch;
+
+    button {
+      width: 40px;
+      height: 40px;
+      background-color: #bc0101;
+      color: white;
+      border: none;
+    }
+
+    input {
+      padding: 5px 10px;
+      width: 200px;
+    }
+  }
+}
